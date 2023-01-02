@@ -5,7 +5,7 @@
 	<groupId>dev.stockman</groupId>
 	<artifactId>spring-cloud-azure-function-java17</artifactId>
 	<version>1.0</version>
-	<name>spring-cloud-azure-function-java17</name>
+	<name>spring-cloud-azure-function-cosmos-changefeed</name>
 	<description>Example spring cloud serverless function to run on azure</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -22,8 +22,8 @@
 		<spring-cloud.version>2022.0.0</spring-cloud.version>
 		<azure.functions.java.library.version>3.0.0</azure.functions.java.library.version>
 		<azure.functions.maven.plugin.version>1.22.0</azure.functions.maven.plugin.version>
-		<functionAppName>app-spring-cloud-azure-function-java17</functionAppName>
-		<appServicePlanName>asp-spring-cloud-azure-function-java17</appServicePlanName>
+		<functionAppName>app-spring-cloud-azure-function-cosmos-changefeed</functionAppName>
+		<appServicePlanName>asp-spring-cloud-azure-function-cosmos-changefeed</appServicePlanName>
 		<functionResourceGroup>MyResourceGroup</functionResourceGroup>
 		<functionAppRegion>centralus</functionAppRegion>
 		<stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
